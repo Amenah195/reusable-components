@@ -1,18 +1,18 @@
 
 import './App.css'
-import Badje from './components/Badges'
+import Badges from './components/Badges'
 
 function App() {
 
   return (
-    <div>
+    <div className='app'>
       <h1>My Homework For Week1</h1>
       <p>A simple reusable component</p>
 
-      <Badje label="Name" value="Amenah"></Badje>
-      <Badje label="Last Name" value="Askari"></Badje>
-      <Badje label="Age" value="22"></Badje>
-      <Badje label="Country" value="Afghanistan"></Badje>
+      <Badges label="Name:" value="Amenah"></Badges>
+      <Badges label="Last Name:" value="Askari"></Badges>
+      <Badges label="Age:" value="22"></Badges>
+      <Badges label="Country:" value="Afghanistan"></Badges>
 
 
     </div>

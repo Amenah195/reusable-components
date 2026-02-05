@@ -1,4 +1,6 @@
-export default function Badje({ label, value }) {
+import './Badges.css'
+
+export default function Badges({ label, value }) {
     return (
         <div className="badge">
             <span className="badge-label">{label}</span>
